@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="500" viewBox="0 0 580 500" fill="none">
+  <!-- Original abstract artwork; not an implementation or system architecture diagram. -->
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#b9d1da" opacity=".6"/></pattern>
+    <linearGradient id="core" x1="227" y1="180" x2="351" y2="310" gradientUnits="userSpaceOnUse"><stop stop-color="#214f6c"/><stop offset="1" stop-color="#102c40"/></linearGradient>
+    <linearGradient id="plane" x1="150" y1="120" x2="430" y2="390" gradientUnits="userSpaceOnUse"><stop stop-color="#edf6f7"/><stop offset="1" stop-color="#d8e9ed"/></linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="220%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#234f63" flood-opacity=".12"/></filter>
+  </defs>
+  <path fill="url(#grid)" d="M0 0h580v500H0z"/>
+  <circle cx="290" cy="250" r="189" stroke="#d4e4e9" stroke-dasharray="3 7"/>
+  <circle cx="290" cy="250" r="142" stroke="#dce8ec"/>
+  <path d="m290 93 183 106v106L290 411 107 305V199L290 93Z" fill="url(#plane)" fill-opacity=".4" stroke="#d0e2e8"/>
+  <path d="m107 199 183 106 183-106M290 305v106" stroke="#c7dce3"/>
+  <g stroke="#78b8bc" stroke-width="1.5">
+    <path d="M290 201v-85M246 225 145 171M335 225l101-54M245 276l-100 55M335 276l101 55M290 302v83"/>
+  </g>
+  <g fill="#087c7c"><circle cx="290" cy="151" r="3"/><circle cx="184" cy="192" r="3"/><circle cx="392" cy="195" r="3"/><circle cx="187" cy="308" r="3"/><circle cx="392" cy="307" r="3"/><circle cx="290" cy="348" r="3"/></g>
+  <g filter="url(#shadow)">
+    <rect x="223" y="185" width="134" height="134" rx="25" fill="url(#core)" stroke="#416c83"/>
+    <rect x="235" y="197" width="110" height="110" rx="18" stroke="#7097a9" stroke-opacity=".4"/>
+    <path d="M276 222h28v18h18v27h-18v18h-28v-18h-18v-27h18v-18Z" fill="#7dd9cd" fill-opacity=".12" stroke="#83d8cf"/>
+    <path d="M271 254h11l6-12 8 24 6-12h9" stroke="#a4eee2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="237" cy="199" r="3" fill="#9adbd4"/>
+  </g>
+  <g fill="#fff" stroke="#bfd8df" filter="url(#shadow)">
+    <rect x="240" y="53" width="100" height="63" rx="9"/>
+    <rect x="65" y="117" width="100" height="66" rx="9"/>
+    <rect x="415" y="117" width="100" height="66" rx="9"/>
+    <rect x="65" y="321" width="100" height="66" rx="9"/>
+    <rect x="415" y="321" width="100" height="66" rx="9"/>
+    <rect x="240" y="385" width="100" height="63" rx="9"/>
+  </g>
+  <g stroke="#358b97" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M279 71h22v15h-22zM285 90h10M290 86v4"/>
+    <path d="M101 134h23v21h-23zM106 139h13m-13 5h9m-9 5h11"/>
+    <path d="m452 140 7-5 7 5-7 5-7-5Zm0 7 7 5 7-5m-14 7 7 5 7-5"/>
+    <path d="M102 338v21m6-16v16m6-12v12m6-19v19"/>
+    <path d="m451 345 8-7 8 7-8 7-8-7Zm8 7v9m-8-16v9l8 7 8-7v-9"/>
+    <path d="M280 402h20v18h-20zM285 407h10m-10 5h6"/>
+  </g>
+  <g fill="#426675" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" letter-spacing="1">
+    <text x="290" y="103">CLINICAL</text><text x="115" y="171">INFORMATION</text><text x="465" y="171">DATA</text>
+    <text x="115" y="375">INTELLIGENCE</text><text x="465" y="375">SOFTWARE</text><text x="290" y="436">EXCHANGE</text>
+  </g>
+  <g fill="#087c7c"><circle cx="107" cy="249" r="3"/><circle cx="473" cy="249" r="3"/></g>
+  <path d="M44 237v24m-12-12h24M529 237v24m-12-12h24" stroke="#c5dae0"/>
+</svg>
