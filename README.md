@@ -1,6 +1,8 @@
 # MedQuant LLC website
 
-The public website for MedQuant LLC, an independent healthcare technology and clinical information architecture practice. This initial site introduces the practice and its areas of focus without publishing confidential work or unsupported business claims.
+The public website for MedQuant LLC, an independent healthcare technology practice combining practical EHR implementation and optimization with clinical information architecture. The site introduces the practice and its areas of focus without publishing confidential work or unsupported business claims.
+
+EHR Implementation & Optimization is presented as a primary capability alongside the existing architecture, interoperability, data, AI, and research capabilities. The About section describes years of healthcare technology and EHR experience, including professional experience and training involving Epic and Oracle Health / Cerner PowerChart, without claiming vendor certifications or relationships.
 
 ## Structure
 
