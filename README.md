@@ -1,8 +1,8 @@
 # MedQuant LLC website
 
-The public website for MedQuant LLC, an independent healthcare technology practice combining practical EHR implementation and optimization with clinical information architecture. The site introduces the practice and its areas of focus without publishing confidential work or unsupported business claims.
+The public website for MedQuant LLC, an independent healthcare technology practice helping healthcare organizations implement, integrate, modernize, and optimize EHR systems and the clinical workflows, applications, interfaces, information, and data that support care delivery. The site introduces the practice and its areas of focus without publishing confidential work or unsupported business claims.
 
-EHR Implementation & Optimization is presented as a primary capability alongside the existing architecture, interoperability, data, AI, and research capabilities. The About section describes years of healthcare technology and EHR experience, including professional experience and training involving Epic and Oracle Health / Cerner PowerChart, without claiming vendor certifications or relationships.
+EHR Implementation & Optimization leads the capabilities, followed by workflow and application implementation, integration and interoperability, data migration and validation, HL7 and FHIR, architecture, document intelligence, and healthcare AI and innovation. Architecture supports practical delivery, while research and development is a supporting activity within Healthcare Technology & Innovation. The About section describes years of healthcare technology and EHR experience, including professional experience and training involving Epic and Oracle Health / Cerner PowerChart, without claiming vendor certifications or relationships.
 
 ## Structure
 
