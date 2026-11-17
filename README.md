@@ -1,15 +1,18 @@
 # MedQuant LLC website
 
-The public website for MedQuant LLC, an independent healthcare technology practice helping healthcare organizations implement, integrate, modernize, and optimize EHR systems and the clinical workflows, applications, interfaces, information, and data that support care delivery. The site introduces the practice and its areas of focus without publishing confidential work or unsupported business claims.
+The public website for MedQuant LLC, an independent healthcare technology practice helping healthcare organizations implement, integrate, modernize, and optimize EHR systems and the clinical workflows, applications, interfaces, information, and data that support care delivery. It presents MedQuant’s capabilities, team experience, created solutions, and platform experience without publishing confidential work or unsupported business claims.
 
-EHR Implementation & Optimization leads the capabilities, followed by workflow and application implementation, Revenue Cycle & Claims Management as capability #3, integration and interoperability, data migration and validation, HL7 and FHIR, architecture, document intelligence, and healthcare AI and innovation. Revenue cycle and claims management is presented as direct practical experience that MedQuant can apply to client environments. Architecture supports practical delivery, while research and development is a supporting activity within Healthcare Technology & Innovation. The About section states that MedQuant LLC was established in 2012 and is based in the New York / New Jersey region. It preserves the description of years of healthcare technology and EHR experience, including professional experience and training involving Epic and Oracle Health / Cerner PowerChart, without claiming vendor certifications or relationships.
+The homepage presents EHR implementation and optimization, workflow implementation, application development, revenue cycle and claims management, integration, data migration, HL7 and FHIR, architecture, document intelligence, and healthcare AI and innovation. It highlights the team’s combined direct patient care and healthcare technology experience. The About section states that MedQuant LLC was established in 2012 and is based in the New York / New Jersey region. It preserves practical EHR experience and training involving Epic and Oracle Health / Cerner PowerChart without claiming vendor certifications or relationships.
 
 ## Structure
 
 ```text
-index.html                     Public single-page website
-assets/css/styles.css          Responsive styles and accessibility preferences
-assets/js/main.js              Mobile navigation and current copyright year
+index.html                     Homepage, About, Capabilities, Innovation, Contact
+experience.html                Selected team experience, with attribution boundaries
+solutions.html                 MedQuant solutions; currently features CDB Constellation
+platforms.html                 Categorized platform and technology experience
+assets/css/styles.css          Shared responsive styles and accessibility preferences
+assets/js/main.js              Shared mobile navigation and current copyright year
 assets/images/architecture.svg Original decorative information architecture illustration
 assets/images/favicon.svg      Original MedQuant monogram
 ```
@@ -32,8 +35,12 @@ Then open `http://localhost:8000`. Stop the server with Ctrl+C.
 
 ## Maintenance
 
-- Edit section text and navigation in `index.html`; preserve section IDs used by the navigation links.
+- Edit homepage text and sections in `index.html`; preserve section IDs used by navigation links. Keep shared page navigation and footer links consistent across all HTML pages.
 - Adjust colors, typography, and layouts in `assets/css/styles.css`.
+- Add future experience entries as factual, high-level cards in `experience.html`. Attribute historical work to “our team” or “our experience”; do not imply a direct MedQuant contract, name past employers or confidential clients, or invent dates, counts, metrics, or outcomes.
+- Add future MedQuant-created solutions to `solutions.html` using the existing solution-intro and capability-card pattern. Describe public capabilities at a high level and avoid client examples or implementation internals.
+- Keep CDB Constellation public content focused on the healthcare problems it addresses and its high-level capabilities. Do not publish internal architecture, schemas, database or table details, APIs, security configuration, algorithms, source code, engineering records, or other proprietary implementation information. Do not imply that every capability is production-ready, autonomous, certified, or clinically validated.
+- Describe vendor and platform experience as experience or training only. Do not claim affiliation, partnership, certification, endorsement, employment, or authorization; do not add vendor logos without separate approval.
 - Place approved, original images in `assets/images/`. The supplied SVG artwork is original decorative artwork, not a diagram of any MedQuant system. Replace it with approved MedQuant or Canva-designed artwork if desired; provide meaningful alternative text for informative images and empty alternative text for decorative images.
 - The Contact section intentionally contains no email address, phone number, or form. Replace its marked placeholder only after business contact details have been validated for public use.
 - Keep claims factual. Do not publish unapproved client names, partnerships, certifications, outcomes, proprietary designs, credentials, or confidential project information.
